@@ -1,0 +1,17 @@
+# Should this module be enabled? (true/false)
+enabled: true
+
+# In which layer should be the player get teleported?
+void_layer: -59
+
+# The message you want to be sent to the player when he is teleported
+# Leave "" if you don't want to send any message
+message: "You have been saved from the void!"
+
+teleport:
+  world_name: world
+  x: 0.5
+  y: 69
+  z: 0.5
+  yaw: 180.0
+  pitch: 0.0

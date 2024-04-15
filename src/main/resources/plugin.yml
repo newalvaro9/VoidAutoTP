@@ -1,0 +1,4 @@
+name: VoidAutoTP
+version: '${project.version}'
+main: me.newalvaro9.voidautotp.VoidAutoTP
+api-version: '1.20'
