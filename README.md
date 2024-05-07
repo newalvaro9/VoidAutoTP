@@ -27,6 +27,12 @@ The configuration file (config.yml) allows you to customize the behavior of the 
 ## Usage
 Once the plugin is installed and configured, it will automatically teleport players who fall into the void to the specified location within your Minecraft world. Players will receive the configured message upon teleportation.
 
+## Commands
+
+- `/voidautotp help`: Displays help information about the plugin.
+- `/voidautotp reload`: Reloads the configuration of the plugin.
+- `/voidautotp setTpLocation`: Sets the teleportation location for players who fall into the void to your current location, yaw and pitch.
+
 ## Example Configuration
 ```yml
 enabled: true
