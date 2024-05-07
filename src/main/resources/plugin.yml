@@ -2,3 +2,15 @@ name: VoidAutoTP
 version: '${project.version}'
 main: me.newalvaro9.voidautotp.VoidAutoTP
 api-version: '1.20'
+
+commands:
+  voidautotp:
+    description: 'VoidAutoTP op commands'
+    usage: '/voidautotp help|reload|setTpLocation'
+    permission: voidautotp.admin
+    permission-message: "You don't have permission to run this command."
+
+permissions:
+  voidautotp.admin:
+    description: Allows the access to the admin commands.
+    default: op

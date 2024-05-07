@@ -8,10 +8,19 @@ void_layer: -59
 # Leave "" if you don't want to send any message
 message: "You have been saved from the void!"
 
+# Configuration for teleportation
 teleport:
+  # Name of the world where the player will be teleported
   world_name: world
+
+  # Coordinates where the player will be teleported
   x: 0.5
   y: 69
   z: 0.5
+
+  # https://www.marinebiology.org/images/pitchyawroll.GIF
+  # Yaw rotation (horizontal direction) after teleportation
   yaw: 180.0
+
+  # Pitch rotation (vertical direction) after teleportation
   pitch: 0.0
